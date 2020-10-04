@@ -48,6 +48,5 @@ def main() :
     initial_way()
     initial_way_2()
 
-
 if __name__ == '__main__':
     main()
