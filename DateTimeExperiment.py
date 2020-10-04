@@ -51,10 +51,8 @@ def print_object(now):
     msg = 'Current date: {}\n'
     print (msg.format(now))
 
-
 if __name__ == '__main__':
     now = datetime.now()
-
     print_object(now)
     print_from_instance(now)
     print_from_strftime(now)
